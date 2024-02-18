@@ -123,16 +123,17 @@ def show_sample_images(df, labels):
 
 def prepare_images(df, image_size=(96, 96)):
     # Prepare a model training dataset
-    X, y = [], np.array(df["encode_label"])
-    for img_path in df["img"]:
+    X, y = [], []
+    for _, row in df.iterrows():
         try:
-            img = cv2.imread(img_path)
+            img = cv2.imread(row["img"])
             img = cv2.resize(img, image_size)
             img = img / 255.0
             X.append(img)
+            y.append(row["encode_label"])
         except Exception:
-            print(img_path)
-    return np.array(X), y
+            print(f"Read failed for:{row['img']}")
+    return np.array(X), np.array(y)
 
 
 def split_data(X, y):
