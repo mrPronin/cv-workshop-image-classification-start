@@ -7,7 +7,7 @@ This repository will also be the basis for the "Workshop 1. Computer Vision | Im
 ## How to setup
 
 1. Install [Miniconda](https://docs.anaconda.com/free/miniconda/) for your operation system. Current repository using conda 24.1.0
-2. Clone [this repository](https://github.com/mrPronin/ml-image-classification-for-beginner) to your workshop folder
+2. Clone [this repository](https://github.com/mrPronin/cv-workshop-image-classification-start) to your workshop folder
 3. Run next command to create an environment from an environment.yml file
 
 ```bash
