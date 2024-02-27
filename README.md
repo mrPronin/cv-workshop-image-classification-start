@@ -31,6 +31,7 @@ conda activate cv-workshop-01-3_11
 
 6. Create `constants.py`
 ```python
+# constants.py
 max_images_per_label = 500
 data_set_folder = "dogs-cats"
 # data_set_folder = "rice-image-dataset"
@@ -41,6 +42,7 @@ image_size = (160, 160)
 
 7. Create `utils.py`
 ```python
+# utils.py
 def encode_labels(df, label_mapping):
     df["encode_label"] = df["label"].map(label_mapping)
     return df
@@ -52,6 +54,7 @@ def map_labels(labels):
 
 8. Create `main.py`
 ```python
+# main.py
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -274,6 +277,7 @@ if __name__ == "__main__":
 
 9. Create `test_model.py`
 ```python
+# test_model.py
 import tensorflow as tf
 import numpy as np
 import os
