@@ -42,3 +42,22 @@ As we move deeper into the network, the CNN starts to combine low-level features
 High-level features are detected in the deeper layers of the CNN. These features represent entire objects or even scenes, incorporating a high level of abstraction and complexity. At this stage, the network has combined lower-level features to recognize complex patterns and objects, such as cars, trees, or human faces. High-level features allow the network to make decisions about what is present in the image, leading to classifications or identifications in tasks like image recognition, object detection, and scene understanding.
 
 The progression from low-level to high-level features in a CNN mirrors the way humans visually process information: starting from basic visual cues and moving towards complex interpretations. This hierarchical processing enables CNNs to effectively handle a wide range of image recognition and classification tasks by learning to recognize patterns of increasing complexity.
+
+## Filter / Feature Detector / Kernel
+In the context of Convolutional Neural Networks (CNNs), the terms filter, feature detector, and kernel are often used interchangeably to refer to the same concept. These elements are fundamental to the operation of CNNs, enabling them to perform feature extraction from input images.
+
+![Filter](img/image-classification-06.png)
+![Filter](img/image-classification-07.png)
+![Filter](img/image-classification-08.png)
+
+**Definition:** A filter (also known as a feature detector or kernel) is a small matrix used to apply transformations to the input image. Filters are designed to detect specific types of features in the image, such as edges, textures, or patterns.
+
+**Operation:** The process of applying a filter to an image is known as convolution. During convolution, the filter is slid (or convolved) across the image, and at each position, a dot product is computed between the filter and the portion of the image it covers. This operation produces a new matrix called a feature map or activation map, which highlights the areas of the image where the specific pattern of the filter is found.
+
+**Purpose:** Filters are used to extract various features from the input image, making it easier for the network to understand and interpret the image. By applying multiple filters, a CNN can detect a wide range of features at different levels of abstraction, from simple edges to complex objects.
+
+**Learning:** In modern CNNs, the values within these filters are not hand-engineered but learned automatically during the training process. The network adjusts the values of the filters based on the training data, enabling it to learn the most relevant features for the task at hand, whether it be image classification, object detection, or another image-related task.
+
+**Depth:** In deep learning, a CNN can have multiple layers of convolution, each with its own set of filters. The filters in the initial layers tend to detect low-level features (such as edges and textures), while the filters in deeper layers are capable of detecting higher-level features (such as parts of objects or entire objects).
+
+By using filters, CNNs can progressively extract more meaningful and complex features from raw pixel data, which is crucial for performing various vision-based tasks with high accuracy. This mechanism allows CNNs to build a deep understanding of images, making them powerful tools for image analysis and interpretation.
