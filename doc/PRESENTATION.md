@@ -1,0 +1,3 @@
+# IMAGE CLASSIFICATION BASICS
+
+![IMAGE CLASSIFICATION PROCESS](doc/img/image-classification-01.png)
