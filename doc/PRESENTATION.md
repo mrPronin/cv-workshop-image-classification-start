@@ -1,3 +1,3 @@
 # IMAGE CLASSIFICATION BASICS
 
-![IMAGE CLASSIFICATION PROCESS](doc/img/image-classification-01.png)
+![IMAGE CLASSIFICATION PROCESS](img/image-classification-01.png)
