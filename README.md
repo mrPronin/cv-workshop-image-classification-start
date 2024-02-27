@@ -23,7 +23,11 @@ conda env list
 conda activate cv-workshop-01-3_11
 ```
 
-5. Create `data` subfolder in the project folder. Download the data set - [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset/data) and place it in the `data` folder.
+5. We will use two data sets for the workshop - [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset/data) and [Cats-vs-Dogs](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset/discussion/438473).
+
+- Create `data` subfolder in the project folder.
+- Download [Cats-vs-Dogs](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset/discussion/438473) data extract to the `data` folder.
+- Download [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset/data) data extract to the `data` folder.
 
 6. Create `constants.py`
 ```python
