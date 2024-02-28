@@ -7,13 +7,26 @@
 ![Image Classification in the Context of Machine Learning](img/image-classification-02.png)
 
 ### The Field of Vision / Graphics
-- Image Classification
-- Object Detection
-- Object Segmentation
-- Pose Detection
-- Face Recognition
-- Image Inpainting
-- Face Generation
+The field of Vision/Graphics encompasses a broad range of topics aimed at enabling machines to interpret and understand visual data in a manner similar to human vision.
+1. <span style="color:#07B4B6">**Image Classification:**</span> Identifying the category or class of an object in an image.
+2. **Object Detection:** Locating objects within an image and identifying their classes.
+3. **Object Segmentation:**
+   - **Semantic Segmentation:** Classifying each pixel of an image into a predefined category.
+   - **Instance Segmentation:** Identifying each instance of each object class in an image at the pixel level.
+4. **Pose Estimation:** Determining the orientation or pose of an object or person, often focusing on joint and limb detection for human figures.
+5. **Face Recognition:** Identifying or verifying a person's identity based on their facial features.
+6. **Image Inpainting:** Filling in missing or corrupted parts of an image in a visually plausible manner.
+7. **Face Generation:** Using generative models to create new, realistic faces that do not correspond to real individuals.
+8. **Image Super-Resolution:** Enhancing the resolution of an image, improving its quality and detail.
+9. **Style Transfer:** Applying the style of one image to the content of another, often used for artistic purposes.
+10. **Visual Question Answering (VQA):** Automatically answering questions about the content of an image.
+11. **Scene Reconstruction:** Building a 3D model of a scene from one or more images.
+12. **Action Recognition:** Identifying the actions or activities depicted in a video.
+13. **Optical Character Recognition (OCR):** Converting typed, handwritten, or printed text into machine-encoded text from a scanned document or image.
+14. **Anomaly Detection in Images:** Identifying unusual patterns or outliers in images that do not conform to expected behavior.
+15. **Image-to-Image Translation:** Translating one representation of an image into another, such as day-to-night, summer-to-winter, or sketch-to-photo.
+16. **Depth Estimation:** Estimating the distance from the viewpoint to the objects in an image, typically used for 3D scene understanding.
+17. **Visual SLAM (Simultaneous Localization and Mapping):** Estimating the location of a sensor as it moves through a space while simultaneously creating a map of the environment.
 
 ## A bit of theory
 
