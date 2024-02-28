@@ -8,7 +8,7 @@
 
 ### The Field of Vision / Graphics
 The field of Vision/Graphics encompasses a broad range of topics aimed at enabling machines to interpret and understand visual data in a manner similar to human vision.
-1. <span style="color:#07B4B6">**Image Classification:**</span> Identifying the category or class of an object in an image.
+1. :red_circle: **Image Classification:** Identifying the category or class of an object in an image.
 2. **Object Detection:** Locating objects within an image and identifying their classes.
 3. **Object Segmentation:**
    - **Semantic Segmentation:** Classifying each pixel of an image into a predefined category.
